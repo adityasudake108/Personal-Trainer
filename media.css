@@ -1,0 +1,142 @@
+@media screen and (max-width: 760px){
+
+/*HEADER MOBILE*/
+
+header{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    }
+
+    .logo img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50vw;
+    margin: 0 auto;
+}
+
+    .header-menu {
+        padding-right:0px;
+    }
+
+    main{
+        height: 60vh;
+    }
+    .main-title{
+        font-size: 0.9rem;
+        width: 80vw;
+    }
+
+    .main-text{
+        font-size: 0.9rem;
+        width: 80vw;
+    }
+
+    .btn-aula button{
+        display:inline-block;
+        font-size: 1.0rem;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about-text{
+        width: 100%;
+        text-align: center;
+        font-size: 1.0rem;
+    }
+
+    .about-avatar img{
+        margin-left: 0;
+    }
+
+    .benefits{
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 0 0 0;
+    }
+
+    .benefits-text{
+        width: 70%;
+        font-size: 1.0rem;
+        text-align: center;
+    }
+
+    .benefits-video{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        padding-left: 0;
+        margin-left:0;
+    }
+
+    .btn-saiba button{
+        margin-bottom: 30px;
+    }
+
+/* FOOTER MOBILE */
+
+.footer img{
+    margin-top:20px;
+}
+
+.footer p{
+    width: 80vw;
+    font-size: 0.8rem;
+}
+
+
+/* SERVICES MOBILE */
+
+.main-services {
+    display: block;
+    block-size: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+.gallery {
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .item {
+    flex-basis: calc(80% - 20px);
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-agende button {
+    width: 50vw;
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+
+/*CONTACT MOBILE*/
+
+.area-form{
+    flex-direction: column;
+    width: 80vw;
+    gap: 50px;
+}
+
+.form-box form{
+    width: 80vw;
+    height: 100%;
+}
+
+
+.form-box input {
+    width: 100%;
+}
+
+}

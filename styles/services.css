@@ -1,0 +1,155 @@
+/* Zerando CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Screen */
+
+html{
+    height:100vh;
+    background-color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+
+header{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #000000;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.logo img{
+    width:150px;
+    margin-left: 170px;
+}
+
+.header-menu {
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right:180px;
+}
+
+.list-itens{
+    display:flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.list-itens a{
+    text-decoration: none;
+    color: white;
+}
+
+.list-itens a:hover{
+    color:#fccd14;
+    transition: 0.3s all;
+}
+
+.list-itens li{
+transition: transform .2s ease-in;
+}
+
+.list-itens li:hover{
+    transform:scale(1.2);
+}
+
+/* SERVICES */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    width: 80%;
+}
+
+.gallery img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0px 2px 5px #888888;
+    border-radius:10px;
+    transition: transform .2s;
+}
+
+.item:hover{
+    transform:scale(1.1);
+}
+
+.item p{
+    padding: 10px 20px 20px;
+}
+
+.btn-agende button{
+    display:inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 0 0 50px 0;
+    text-align: center;
+    color:#000000;
+    background-color:#14cefc;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .2s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-agende button:hover{
+    transform: scale(1.1);
+    }
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 135px;
+    background-color: #000000;
+    padding-bottom:10px;
+}
+    
+.footer img {
+     width: 100px;
+}
+    
+.footer p{
+    margin-top:10px;
+    color: white;
+    text-align: center;
+}
+.span{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
